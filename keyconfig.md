@@ -2,18 +2,20 @@
 
 ## Top Panel(上部パネル)キーの設定
 
-`Top Panel (上部パネル)` はSlay the Spire 2本体のキーボード設定に存在しないため、KeyboardControllerMode専用の設定で補います。デフォルトでは"T"キーとなっております。
+`Top Panel (上部パネル)` はゲーム内でキー設定が出来ないため、KeyboardControllerMode専用の設定で補います。デフォルトでは`T`キーとなっております。
 
-[ModConfig](https://github.com/xhyrzldf/ModConfig-STS2)を導入している場合は、ゲーム内のModsタブから変更できます。Nexus Mods版は[こちら](https://www.nexusmods.com/slaythespire2/mods/27)
-※Nexus Mod版はダウンロードの際にアカウント登録が必要になります。
+[ModConfig](https://github.com/xhyrzldf/ModConfig-STS2)(Nexus Mods版は[こちら](https://www.nexusmods.com/slaythespire2/mods/27)を導入している場合は、ゲーム内のModsタブから変更できます。すでに設定されている`T`をクリックし設定したいキー押下で設定可能です。
+
+※Nexus Mods版はダウンロードの際にアカウント登録が必要になります。
 
 ```text
-Mod Settings
-└─ KeyboardControllerMode
-   └─ Top Panel Key: T
+Settings
+   └─ Mods(Modconfig)
+      └─ KeyboardControllerMode
+         └─ Top Panel Key: T
 ```
 
-ModConfigを導入していない場合は、以下のJSONファイルを編集します。
+ModConfigを導入していない場合はJSONファイルを編集することでキー設定が可能です。
 
 ```json
 {
@@ -24,14 +26,14 @@ ModConfigを導入していない場合は、以下のJSONファイルを編集�
 設定ファイル:
 
 ```text
-mods\KeyboardControllerMode\KeyboardControllerMode.config.json
+KeyboardControllerMode.config.json
 ```
 
 ## キーコンフィグを入れ替える場合
 
 `KeyboardControllerMode` は、Slay the Spire 2 の現在のキーボード設定とコントローラー設定を読み取り、同じ操作名どうしを対応させます。
 
-Modが有効化しているとキーボード操作がコントローラー操作判定となってしまうため、キーボードコンフィグを再設定する場合は、以下の手順で行ってください。
+Modが有効化しているとキーボード操作がコントローラー操作判定となってしまうため、キーボードコンフィグを再設定する場合は以下の手順で行ってください。
 
 1. `Mod Settings` を開く
 2. `KeyBoard Controller Mode` のチェックを外す

@@ -4,17 +4,18 @@
 
 `Top Panel` does not have a keyboard binding in Slay the Spire 2 itself, so KeyboardControllerMode provides its own setting for it. The default key is `T`.
 
-If [ModConfig](https://github.com/xhyrzldf/ModConfig-STS2) is installed, you can change it from the in-game Mods tab. The Nexus Mods version is available [here](https://www.nexusmods.com/slaythespire2/mods/27).
+If [ModConfig](https://github.com/xhyrzldf/ModConfig-STS2) is installed (the Nexus Mods version is available [here](https://www.nexusmods.com/slaythespire2/mods/27)), you can change this key from the in-game Mods tab. Click the already configured `T`, then press the key you want to assign.
 
 Note: Downloading from Nexus Mods may require account registration.
 
 ```text
-Mod Settings
-└─ KeyboardControllerMode
-   └─ Top Panel Key: T
+Settings
+   └─ Mods(Modconfig)
+      └─ KeyboardControllerMode
+         └─ Top Panel Key: T
 ```
 
-If ModConfig is not installed, edit the following JSON file:
+If ModConfig is not installed, you can configure the key by editing the JSON file.
 
 ```json
 {
@@ -25,7 +26,7 @@ If ModConfig is not installed, edit the following JSON file:
 Config file:
 
 ```text
-mods\KeyboardControllerMode\KeyboardControllerMode.config.json
+KeyboardControllerMode.config.json
 ```
 
 ## When Changing Keyboard Config
