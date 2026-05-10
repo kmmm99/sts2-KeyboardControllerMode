@@ -1,9 +1,15 @@
 ﻿# Keyboard Controller Mode Mod
+[JP](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/README.md) | EN | [Keyconfig_JP](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/keyconfig.md) | [Keyconfig_EN](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/keyconfig_EN.md)
+Mod file :
+[KeyboardControllerMode.zip](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/KeyboardControllerMode.zip)
 
 ## Disclaimer
 
 - The author is not responsible for corrupted save data, lost progress, malfunction, or any other damage caused by installing this mod, changing settings, migrating save data, or using this mod together with the base game or other mods. Install and use this mod at your own risk.
 - Before installing the mod, always back up your save data. If necessary, temporarily disable Steam Cloud auto-sync.
+- Slay the Spire 2 is currently in Early Access, so future updates may make this mod unusable.
+
+## What Is This?
 
 `KeyboardControllerMode` maps keyboard input to Slay the Spire 2 controller actions. It lets you operate the controller-style UI using only the keyboard, without requiring mouse input.
 
@@ -32,7 +38,7 @@ Default mapping example:
 | `X` | View Exhaust Pile |
 | `E` | End Turn |
 
-`Top Panel` does not have a keyboard binding in Slay the Spire 2 itself, so KeyboardControllerMode provides its own setting for it. The default key is `T`. For details, see `Keyconfig and Top Panel Key`.
+`Top Panel` does not exist in Slay the Spire 2's built-in keyboard settings, so KeyboardControllerMode provides a dedicated setting for it. By default, this is the `T` key. For details, see [Keyconfig and Top Panel Key](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/keyconfig_EN.md).
 
 ## 0. Requirements
 

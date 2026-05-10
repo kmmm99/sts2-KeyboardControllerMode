@@ -1,8 +1,14 @@
 ﻿# Keyboard Controller Mode Mod
+JP | [EN](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/README_EN.md) | [Keyconfig_JP](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/keyconfig.md) | [Keyconfig_EN](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/keyconfig_EN.md)
+Modファイル :
+[KeyboardControllerMode.zip](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/KeyboardControllerMode.zip)
 
 ## 注意事項
 - Modの導入、設定変更、セーブデータの移行、ゲーム本体や他Modとの組み合わせによって発生したセーブデータの破損、進行状況の消失、動作不良、その他いかなる損害についても作者は責任を負いかねます。
 - 導入前には必ずセーブデータのバックアップを作成し、必要に応じてSteam Cloudの自動同期を一時的に無効化してください。
+- Slay the Spire 2はアーリーアクセスのため、アップデートにより本Modが使用不可になる可能性がございます。
+
+## これは何？
 
 `KeyboardControllerMode` は、キーボード入力をSlay the Spire 2のコントローラー操作アクションへ変換します。マウス不要でキーボードのみでコントローラー風UIでの操作が可能になります。
 
@@ -31,7 +37,7 @@
 | `X` | 廃棄札を見る |
 | `E` | ターン終了 |
 
-`Top Panel` はSlay the Spire 2本体のキーボード設定に存在しないため、KeyboardControllerMode専用の設定で補います。デフォルトでは"T"キーとなっております。詳しくはKeyconfigとTop Panel Keyについてをご覧ください。
+`Top Panel` はSlay the Spire 2本体のキーボード設定に存在しないため、KeyboardControllerMode専用の設定で補います。デフォルトでは"T"キーとなっております。詳しくは[KeyconfigとTop Panel Key](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/keyconfig.md)についてをご覧ください。
 
 ## 1. 事前準備
 - Slay the Spire 2 がインストール済みであること（本項目ではWindows環境での説明となります）
@@ -158,4 +164,3 @@ C:\Users\<ユーザー名>\AppData\Roaming\SlayTheSpire2\steam\<SteamID>\modded\
 - コピー前に必ずバックアップ済みであることを確認してください
 - 基本は `Vanilla -> Modded` の一方向コピーにしてください
 - `Modded -> Vanilla` へ戻すのは避けてください
-
