@@ -165,3 +165,7 @@ Notes:
 - Confirm that your backup exists before copying
 - Prefer one-way copying from `Vanilla -> Modded`
 - Avoid copying `Modded -> Vanilla`
+
+## License
+
+This mod is released under the MIT License. See [LICENSE](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/LICENSE) for details.

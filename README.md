@@ -156,3 +156,7 @@ C:\Users\<ユーザー名>\AppData\Roaming\SlayTheSpire2\steam\<SteamID>\modded\
 - コピー前に必ずバックアップ済みであることを確認してください
 - 基本は `Vanilla -> Modded` の一方向コピーにしてください
 - `Modded -> Vanilla` へ戻すのは避けてください
+
+## ライセンス
+
+このModはMIT Licenseで公開しています。詳しくは [LICENSE](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/LICENSE) をご覧ください。
