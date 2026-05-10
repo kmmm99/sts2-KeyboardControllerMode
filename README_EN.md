@@ -57,12 +57,6 @@ Close Slay the Spire 2, then copy this entire folder somewhere safe:
 C:\Users\<UserName>\AppData\Roaming\SlayTheSpire2\steam\<SteamID>
 ```
 
-Example backup destination:
-
-```text
-C:\Users\<UserName>\Documents\savedata_backup\sts2\<SteamID>
-```
-
 ### Temporarily Disable Steam Cloud Auto-Sync
 
 To avoid accidental save overwrites during migration, turn off Steam Cloud while working with save data.
@@ -85,7 +79,7 @@ From Steam:
 Default path:
 
 ```text
-C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2
+~\Steam\steamapps\common\Slay the Spire 2
 ```
 
 ## 3. Create the mods Folder
@@ -93,7 +87,7 @@ C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2
 Create a `mods` folder directly under the game folder.
 
 ```text
-C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\mods
+~\Steam\steamapps\common\Slay the Spire 2\mods
 ```
 
 If it already exists, leave it as-is.
@@ -103,7 +97,7 @@ If it already exists, leave it as-is.
 Create a `KeyboardControllerMode` folder inside `mods`.
 
 ```text
-C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\mods\KeyboardControllerMode
+~\Steam\steamapps\common\Slay the Spire 2\mods\KeyboardControllerMode
 ```
 
 Place these three files inside it:
