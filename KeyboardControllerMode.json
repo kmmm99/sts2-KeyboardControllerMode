@@ -1,0 +1,11 @@
+{
+  "id": "KeyboardControllerMode",
+  "name": "Keyboard Controller Mode",
+  "author": "kmmm99(massan)",
+  "description": "Maps keyboard navigation keys to Slay the Spire 2 controller actions. Top Panel Key defaults to T. キーボード操作をSlay the Spire 2のコントローラー操作へ変換します。Top Panel用のキー設定にも対応しています。上部パネルキーはデフォルトでTキーです。",
+  "version": "1.0.0",
+  "has_pck": false,
+  "has_dll": true,
+  "dependencies": [],
+  "affects_gameplay": false
+}
