@@ -1,8 +1,5 @@
 ﻿# Keyboard Controller Mode Mod
 JP | [EN](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/README_EN.md) | [Keyconfig_JP](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/keyconfig.md) | [Keyconfig_EN](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/keyconfig_EN.md)
-Modファイルは以下からダウンロードできます :
-
-[KeyboardControllerMode.zip](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/KeyboardControllerMode.zip)
 
 ## 注意事項
 - Modの導入、設定変更、セーブデータの移行、ゲーム本体や他Modとの組み合わせによって発生したセーブデータの破損、進行状況の消失、動作不良、その他いかなる損害についても作者は責任を負いかねます。
@@ -87,13 +84,7 @@ Steamから開く場合:
 
 ## 4. KeyboardControllerModeを配置する
 
-`mods` フォルダ内に `KeyboardControllerMode` フォルダを作ります。
-
-```text
-~\Steam\steamapps\common\Slay the Spire 2\mods\KeyboardControllerMode
-```
-
-[KeyboardControllerMode.zip](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/KeyboardControllerMode.zip)  をダウンロードし、その中に以下の3ファイルを入れます。
+[KeyboardControllerMode.zip](https://github.com/kmmm99/sts2-KeyboardControllerMode/blob/main/KeyboardControllerMode.zip)  をダウンロードして解凍し、`mods`フォルダに置きます。`KeyboardControllerMode`には以下3ファイルが入っていることを確認します。
 
 ```text
 KeyboardControllerMode.dll
